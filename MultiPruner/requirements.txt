@@ -6,4 +6,5 @@ sentencepiece
 protobuf 
 bitsandbytes
 lm-eval==0.4.2
-torch==2.3.1
+torch==2.8.0
+transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
